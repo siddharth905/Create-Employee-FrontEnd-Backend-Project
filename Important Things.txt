@@ -11,3 +11,4 @@ For BackEnd:-
 4)npm i nodemon
 5)npm run dev
 6)npm i dotenv
+7)npm i core
