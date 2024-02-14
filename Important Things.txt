@@ -1,0 +1,13 @@
+For FrontEnd:-
+1) npm i 
+2)npm run start
+3)npm install react-scripts
+4)npm install react-hook-form
+
+For BackEnd:-
+1)npm init -y
+2)npm i express
+3)npm i mongoose
+4)npm i nodemon
+5)npm run dev
+6)npm i dotenv
