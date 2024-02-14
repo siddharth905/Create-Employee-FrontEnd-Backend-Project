@@ -10,7 +10,7 @@ const EmployeeForm = () => {
   const createEmployee = async (data) => {
 
     const savedUserResponse = await fetch(
-      `${process.env.REACT_APP_BASE_URL}/createUser`,
+      "http://localhost:4000/api/v1/createUser",  // `${process.env.REACT_APP_BASE_URL}/createUser` but require .dotenv
       {
         method: "POST",
         headers: {
@@ -21,6 +21,7 @@ const EmployeeForm = () => {
     );
 
     console.log("FORM RESPONSE......", savedUserResponse);
+    //console.log(`${process.env.REACT_APP_BASE_URL}/createUser`);
 
     navigate("/")
   };

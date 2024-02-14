@@ -28,7 +28,7 @@ const HomePage = () => {
   const getAllData = async () => {
     try {
       const getPeople = await fetch(
-        `${process.env.REACT_APP_BASE_URL}/getallUsers`,
+        "http://localhost:4000/api/v1/getallUsers",  // `${process.env.REACT_APP_BASE_URL}/getallUsers` but require .dotenv
         {
           method: "GET",
           headers: {
